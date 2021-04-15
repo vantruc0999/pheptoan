@@ -60,7 +60,7 @@ public class PhepToan extends JFrame implements ActionListener{
        { 
     	   result = Double.parseDouble(tf1.getText()) + Double.parseDouble(tf2.getText()); 
            tf3.setText(String.valueOf(result));
-       }
+       }//hihi
        //Thuc hien phep tru
        public void Minus() 
        { 
