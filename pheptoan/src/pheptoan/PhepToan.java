@@ -31,6 +31,7 @@ public class PhepToan extends JFrame implements ActionListener{
            panel1.add(tf2);
            panel1.add(resultl);
            panel1.add(tf3);
+
            
            btn1 = new JButton("+");
            btn2 = new JButton("-");
