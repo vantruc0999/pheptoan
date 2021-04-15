@@ -58,60 +58,40 @@ public class PhepToan extends JFrame implements ActionListener{
        //Thuc hien phep cong
        public void Add() 
        { 
-            result = Double.parseDouble(tf1.getText()) + Double.parseDouble(tf2.getText()); 
-            tf3.setText(String.valueOf(result)); 
+            
        }
        //Thuc hien phep tru
        public void Minus() 
        { 
-            result = Double.parseDouble(tf1.getText()) - Double.parseDouble(tf2.getText());
-            tf3.setText(String.valueOf(result));
+            
        } 
        //Thuc hien phep nhan
        public void Mult() 
        { 
-            result = Double.parseDouble(tf1.getText()) * Double.parseDouble(tf2.getText());
-            tf3.setText(String.valueOf(result));
+            
        }
        //Thuc hien phep chia
        public void Divide() 
        { 
-            result = Double.parseDouble(tf1.getText()) / Double.parseDouble(tf2.getText());
-            tf3.setText(String.valueOf(result));
+           
        }
 
        public void actionPerformed(ActionEvent e) 
        { 
             if (e.getActionCommand()=="+") {
-                if(tf1.getText().equals("") || tf2.getText().equals("")) {
-                    JOptionPane.showMessageDialog(this, "Vui lòng nhập đủ 2 số");
-                }else {
-                    Add();
-                }
+                
             }
                
             if (e.getActionCommand()=="-") {
-                if(tf1.getText().equals("")|| tf2.getText().equals("")) {
-                    JOptionPane.showMessageDialog(this, "Vui lòng nhập đủ 2 số");
-                }else {
-                    Minus();
-                }
+               
             }
             
             if (e.getActionCommand()=="*") {
-                if(tf1.getText().equals("")|| tf2.getText().equals("")) {
-                    JOptionPane.showMessageDialog(this, "Vui lòng nhập đủ 2 số");
-                }else {
-                    Mult();
-                }
+                
             }
             
             if (e.getActionCommand()=="/") {
-                if(tf1.getText().equals("")|| tf2.getText().equals("")) {
-                    JOptionPane.showMessageDialog(this, "Vui lòng nhập đủ 2 số");
-                }else {
-                    Divide();
-                }
+                
             }  
        }
        
