@@ -12,25 +12,7 @@ public class PhepToan extends JFrame implements ActionListener{
        private JPanel panel1, panel2;
  
        public PhepToan(String s) { 
-    	   super(s);
-           container = this.getContentPane(); 
-           JLabel num1 = new JLabel("Số thứ nhất: ");
-           tf1 = new JTextField();
-           JLabel num2 = new JLabel("Số Thứ hai: ");
-           tf2 = new JTextField();
-           JLabel resultl = new JLabel("Kết quả là: ");
-           tf3 = new JTextField();
-           tf3.setEditable(false);
-
-           panel1 = new JPanel(); 
-           panel1.setLayout(new GridLayout(3,2));
-       
-           panel1.add(num1); 
-           panel1.add(tf1); 
-           panel1.add(num2); 
-           panel1.add(tf2);
-           panel1.add(resultl);
-           panel1.add(tf3);    
+    
        }
  
        //Thuc hien phep cong
