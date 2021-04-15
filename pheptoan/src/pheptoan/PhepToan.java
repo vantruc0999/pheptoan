@@ -95,7 +95,7 @@ public class PhepToan extends JFrame implements ActionListener{
             	 if(tf1.getText().equals("")|| tf2.getText().equals("")) {
                      JOptionPane.showMessageDialog(this, "Vui lòng nhập đủ 2 số");
                  }else {
-                     Minus();
+                     Minus(); 
                  }
             }
             
