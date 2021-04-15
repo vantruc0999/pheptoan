@@ -100,11 +100,19 @@ public class PhepToan extends JFrame implements ActionListener{
             }
             
             if (e.getActionCommand()=="*") {
-                
+            	 if(tf1.getText().equals("")|| tf2.getText().equals("")) {
+                     JOptionPane.showMessageDialog(this, "Vui lòng nhập đủ 2 số");
+                 }else {
+                     Mult();
+                 }
             }
             
             if (e.getActionCommand()=="/") {
-                
+            	if(tf1.getText().equals("")|| tf2.getText().equals("")) {
+                    JOptionPane.showMessageDialog(this, "Vui lòng nhập đủ 2 số");
+                }else {
+                    Divide();
+                }
             }  
        }
        
