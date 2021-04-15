@@ -30,7 +30,29 @@ public class PhepToan extends JFrame implements ActionListener{
            panel1.add(num2); 
            panel1.add(tf2);
            panel1.add(resultl);
-           panel1.add(tf3);    
+           panel1.add(tf3);
+           
+           btn1 = new JButton("+");
+           btn2 = new JButton("-");
+           btn3 = new JButton("*");
+           btn4 = new JButton("/");
+           
+           panel2 = new JPanel();
+           panel2.add(btn1);
+           panel2.add(btn2);
+           panel2.add(btn3);
+           panel2.add(btn4);
+
+           
+           container.add(panel1); 
+           container.add(panel2,"South"); 
+
+           btn1.addActionListener(this);
+           btn2.addActionListener(this); 
+           btn3.addActionListener(this); 
+           btn4.addActionListener(this); 
+           this.setSize(350, 200);
+           this.setVisible(true);
        }
  
        //Thuc hien phep cong
